@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sugarland Seat Booking</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Sugarland Theaters - Seat Booking</h1>
+    </header>
+
+    <main>
+        <div class="screen">Screen This Way</div>
+        <div class="seat-map" id="seat-map">
+            <!-- Seat rows will be injected here -->
+        </div>
+        <div class="legend">
+            <span class="seat available"></span> Available
+            <span class="seat selected"></span> Selected
+            <span class="seat occupied"></span> Occupied
+        </div>
+        <div class="info">
+            <p>Selected Seats: <span id="selected-seats">None</span></p>
+            <p>Total Price: $<span id="total-price">0</span></p>
+        </div>
+        <div class="controls">
+            <button id="reset">Reset</button>
+            <button id="confirm">Confirm Booking</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
